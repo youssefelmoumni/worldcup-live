@@ -1,40 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>World Cup Live</title>
+
 <link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
 </head>
-  <nav class="bottom-nav">
-  <a href="#">🏠<br>Home</a>
-  <a href="#">⚽<br>Matches</a>
-  <a href="#">📰<br>News</a>
-  <a href="#">📊<br>Standings</a>
-  <a href="#">⚙️<br>More</a>
-  </nav>
+
 <body>
 
-<header>
+<div class="background"></div>
+
+<header class="header">
+
 <h1>🏆 World Cup Live</h1>
+
 <p>Live Scores • News • Fixtures • Standings</p>
+
 </header>
 
-<section class="card">
-<h2>⚽ Live Matches</h2>
+<section class="hero">
+
+<h2>FIFA World Cup 2026</h2>
+
+<p>Live Scores, Results, Fixtures & News</p>
+
+<button class="liveBtn">
+<i class="fa-solid fa-play"></i>
+Live Matches
+</button>
+
+</section>
+
+<section class="card fade">
+
+<h2>
+<i class="fa-solid fa-futbol"></i>
+Live Matches
+</h2>
+
 <div id="matches">
+
 Loading matches...
+
 </div>
+
 </section>
 
-<section class="card">
-<h2>📰 Latest News</h2>
+<section class="card fade">
+
+<h2>
+<i class="fa-solid fa-newspaper"></i>
+Latest News
+</h2>
+
 <div id="news">
+
 Loading news...
+
 </div>
+
 </section>
 
-<section class="card">
+<section class="card fade">
+
+<h2>
+<i class="fa-solid fa-ranking-star"></i>
+Standings
+</h2>
+
+<div>
+
+Coming Soon...
+
+</div>
+
+</section>
+
+<nav class="bottom-nav">
+
+<a class="active">
+<i class="fa-solid fa-house"></i>
+<span>Home</span>
+</a>
+
+<a>
+<i class="fa-solid fa-futbol"></i>
+<span>Matches</span>
+</a>
+
+<a>
+<i class="fa-solid fa-newspaper"></i>
+<span>News</span>
+</a>
+
+<a>
+<i class="fa-solid fa-chart-column"></i>
+<span>Table</span>
+</a>
+
+<a>
+<i class="fa-solid fa-gear"></i>
+<span>More</span>
+</a>
+
+</nav>
+
+<script src="script.js"></script>
+
+</body>
+
+</html><section class="card">
 <h2>📊 Standings</h2>
 <p>Coming Soon...</p>
 </section>
