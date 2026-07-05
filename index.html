@@ -1,87 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>World Cup Live</title>
 
 <link rel="stylesheet" href="style.css">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
 
-<div class="background"></div>
+<div class="bg"></div>
 
 <header class="header">
 
-<h1>🏆 World Cup Live</h1>
+<div class="logo">
+🏆 World Cup Live
+</div>
 
-<p>Live Scores • News • Fixtures • Standings</p>
+<div class="menu">
+<i class="fa-solid fa-bars"></i>
+</div>
 
 </header>
 
 <section class="hero">
 
-<h2>FIFA World Cup 2026</h2>
+<h1>FIFA World Cup 2026</h1>
 
-<p>Live Scores, Results, Fixtures & News</p>
+<p>
+Live Matches • Results • Fixtures • News
+</p>
 
-<button class="liveBtn">
-<i class="fa-solid fa-play"></i>
-Live Matches
+<button class="btn">
+Watch Live Scores
 </button>
 
 </section>
 
-<section class="card fade">
+<section class="cards">
 
-<h2>
-<i class="fa-solid fa-futbol"></i>
-Live Matches
-</h2>
+<div class="card">
 
-<div id="matches">
+<div class="icon">
+⚽
+</div>
 
-Loading matches...
+<h2>Live Matches</h2>
+
+<p id="matches">
+Loading...
+</p>
 
 </div>
 
-</section>
+<div class="card">
 
-<section class="card fade">
+<div class="icon">
+📰
+</div>
 
-<h2>
-<i class="fa-solid fa-newspaper"></i>
-Latest News
-</h2>
+<h2>Latest News</h2>
 
-<div id="news">
-
-Loading news...
+<p id="news">
+Loading...
+</p>
 
 </div>
 
-</section>
+<div class="card">
 
-<section class="card fade">
+<div class="icon">
+📅
+</div>
 
-<h2>
-<i class="fa-solid fa-ranking-star"></i>
-Standings
-</h2>
+<h2>Fixtures</h2>
 
-<div>
+<p>
+Coming Soon
+</p>
 
-Coming Soon...
+</div>
+
+<div class="card">
+
+<div class="icon">
+📊
+</div>
+
+<h2>Standings</h2>
+
+<p>
+Coming Soon
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="icon">
+🥇
+</div>
+
+<h2>Top Scorers</h2>
+
+<p>
+Coming Soon
+</p>
 
 </div>
 
@@ -106,7 +135,7 @@ Coming Soon...
 
 <a>
 <i class="fa-solid fa-chart-column"></i>
-<span>Table</span>
+<span>Standings</span>
 </a>
 
 <a>
@@ -115,19 +144,6 @@ Coming Soon...
 </a>
 
 </nav>
-
-<script src="script.js"></script>
-
-</body>
-
-</html><section class="card">
-<h2>📊 Standings</h2>
-<p>Coming Soon...</p>
-</section>
-
-<footer>
-<p>© 2026 World Cup Live</p>
-</footer>
 
 <script src="script.js"></script>
 
